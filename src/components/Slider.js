@@ -23,7 +23,7 @@ const Slider = () => {
     }
     return (
         <Fragment>
-            <Swiper navigation autoplay={{delay:5005}} loop>
+            <Swiper navigation autoplay={{delay:5005}} spaceBetween={40} loop>
                 {slides}
             </Swiper>
         </Fragment>

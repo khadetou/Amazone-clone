@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from './Slider';
 import '../App.css';
 import Product from '../products/Product';
+import ProductSlider from '../products/ProductSlider';
 const Home = () => {
     const images=[
         "https://www.numerama.com/content/uploads/2017/05/microsoft-surface-laptop-10.jpg",
@@ -42,8 +43,9 @@ const Home = () => {
                     {/* products */}
                 </div>
 
-                <div>
+                <div  className="flex justify-center w-full max absolute tp1">
                     {/* Discover amazon */}
+                    <ProductSlider/>
                 </div>
 
                 <div>
